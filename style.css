@@ -1,0 +1,289 @@
+/*
+Theme Name:         Virtue
+Theme URI:          http://kadencethemes.com/product/virtue-free-theme/
+Description:        The Virtue theme is extremely versatile with tons of options, easy to customize and loaded with great features. The clean modern design is built with html5 and css3 and uses the powerful responsive framework from Bootstrap to be a fully responsive and mobile friendly. It's fully ecommerce (Woocommerce) ready with all the tools you need to design an awesome online store. The versatile design is perfect for any kind of business, online store, portfolio or personal site. We built Virtue with a powerful options panel where you can set things like your home layout, sliders, custom fonts, and completely customize your look without writing any CSS. You are going to love how easy this theme is to work with. Virtue was built and designed by <a href="http://kadencethemes.com/">Kadence Themes</a>.
+Version:            1.8.4
+Author:             Kadence Themes
+Author URI:         http://kadencethemes.com/
+Tags: 				responsive-layout, two-columns, one-column, custom-colors, custom-header, custom-menu, featured-images, translation-ready, theme-options, photoblogging 
+
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+*/
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url("font/OpenSans-Bold.ttf") format("opentype");
+ }
+@font-face {
+    font-family: OpenSans-BoldItalic;
+    src: url("font/OpenSans-BoldItalic.ttf") format("opentype");
+ }
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url("font/OpenSans-ExtraBold.ttf") format("opentype");
+ }
+@font-face {
+    font-family: OpenSans-ExtraBoldItalic;
+    src: url("font/OpenSans-ExtraBoldItalic.ttf") format("opentype");
+ }
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url("font/OpenSans-Italic.ttf") format("opentype");
+ }
+@font-face {
+    font-family: OpenSans-Light;
+    src: url("font/OpenSans-Light.ttf") format("opentype");
+ }
+@font-face {
+    font-family: OpenSans-LightItalic;
+    src: url("font/OpenSans-LightItalic.ttf") format("opentype");
+ }
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("font/OpenSans-Regular.ttf") format("opentype");
+ }
+ @font-face {
+    font-family: OpenSans-Semibold;
+    src: url("font/OpenSans-Semibold.ttf") format("opentype");
+ }
+ 
+ @font-face {
+    font-family: OpenSans-SemiboldItalic;
+    src: url("font/OpenSans-SemiboldItalic.ttf") format("opentype");
+ }
+
+#logo a.brand {
+color: black!important;
+font-family: inherit!important;
+}
+#nav-main ul.sf-menu a {
+    font-family:OpenSans-regular!important;
+    color: #6f6f6f!important;
+    font-size: 14px!important;
+}
+
+.point-img{
+    background: url('images/point-img.png') no-repeat;
+    width: 9%;
+  
+    float: left;
+}
+.img-content{
+    float: left;
+    width: 82%;
+    letter-spacing: 2px;
+}
+
+p{ 
+   font-family: OpenSans-regular;
+    font-size: 24px;
+    text-align: center;
+    padding: 0 17%;
+    line-height: 29px;
+    color: #6f6f6f;
+}
+
+.wrap1 .w-title{
+    padding: 0;
+}
+.wrap2 .w-title{
+    padding: 0 20%;
+}
+
+.wrap1 .w-title, .wrap2 .w-title{
+    color: #4a5b66;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: OpenSans-bold;
+    letter-spacing: 2px;
+}
+
+
+.wrap1 .container{
+    padding-bottom: 30px;
+}
+    
+.img-wrapper{
+    width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.wrap1{
+    background:#eef1f5;
+}
+.wrap3{
+    background:#f26722;
+}
+#logo{
+    padding: 0!important;
+     margin: 0!important;
+}
+#nav-main{
+    padding: 0;
+    margin: 0!important;
+}
+.belowlogo-text{
+    margin: 0;
+}
+
+.magento{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.m-title{
+   margin-bottom: 15px;
+}
+
+.s-title{
+    margin-bottom: 34px;
+}
+.spree{
+    float:left;
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.wrap1 .c-content{
+   margin-bottom: 10px;
+   margin-top: -5px;
+}
+.wrap1 p ,.wrap1 .m-content,.wrap1 .c-content{
+    font-size: 14px;
+    line-height: 17px; 
+    padding: 0 17%;
+}
+
+.div1{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.div1 p{
+    color: #4a5b66;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.wrap3 span{
+  color: white;
+    font-size: 24px;
+    letter-spacing: -1.4px;
+}
+
+.wrap3 .container{
+   padding: 3% 3% 3% 7%;
+}
+
+.howit{
+   background: white;
+    font-size: 18px;
+    padding: 8px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 2%;
+    color: #f26722;
+}
+footer{
+    font-family: OpenSans-regular;
+}
+
+.foot1{
+    float: left;
+    width: 25%;
+}
+.foot2{
+    float: left;
+    width: 25%;
+}
+.foot3{
+    float: left;
+    width:50%;
+}
+.foot2 .connect{
+    margin-top: 22px!important;
+}
+.foot2 .learn-more, .foot2 .connect{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.foot2 h6,.foot3 h6{
+    margin: 5px 0; 
+    font-weight: normal;
+  
+}
+.foot2 h6 a,.foot3 h6 a{   
+    color: #a8d1ec;   
+    
+}
+
+.foot3 h6:first-child{
+     border-bottom: 1px solid #8697a1; 
+     height: 56px; 
+     text-transform:lowercase;
+     line-height: 14px; 
+     margin-top: 0;
+     font-size: 14px;
+}
+.foot3 h6{
+     margin: 20px 0;  
+     text-transform: uppercase;
+     letter-spacing: 1.9px;
+}
+
+.contactus{
+    color: #a8d1ec!important;
+    padding: 1% 2%;
+    font-size: 11px;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(168,209,236,1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(168,209,236,1);
+    box-shadow: 0px 0px 0px 1px rgba(168,209,236,1);
+}
+.footercredits {
+    border-top: 1px solid #8697a1; 
+    margin-top: 50px;
+}
+.footercredits p{
+    float: left;
+    font-size: 12px!important;
+    padding: 4px 0;
+    color: white!important;
+    letter-spacing: 2px;
+}
+.foot-pol{
+    float: right;
+    margin-top: 6px;
+    letter-spacing: 1.5px;
+
+}
+.foot-pol a {
+    color:#a8d1ec!important; 
+    font-size: 12px!important;
+}
+.foot-pol span{
+    margin: 0 10px;
+}
+
+.get{
+    background: #f26722;
+color: white;
+padding: 5px 12px;
+font-size: 14px;
+position: absolute;
+top: 37px;  
+ -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+@media (max-width: 979px) and (min-width: 300px){
+.span8 {
+    display: none;
+}}
